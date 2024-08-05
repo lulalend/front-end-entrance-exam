@@ -3,8 +3,7 @@ const button = document.querySelector('#download-pdf');
 
 button.addEventListener('click', () => {
     const content = document.querySelector('.container');
-
-   const opt = {
+    const opt = {
         margin: 1,
         filename: fileName,
         image: { type: 'jpeg', quality: 0.98 },
